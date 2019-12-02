@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Domain.referencecompetence>
+
+@{
+    ViewBag.Title = "Show";
+
+    Layout = "~/Views/Shared/_test.cshtml";
+}
+
+<h2>Show</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+
+    @foreach (var item in Model)
+    {
+        <div class="box box-widget widget-user-2">
+            <!-- Add the bg color to the header using any of the bg-* classes -->
+            <center>
+                <div class="widget-user-header bg-yellow">
+                    <h3 class="widget-user-username">@Html.DisplayFor(modelItem => item.employee.U_FirstName)</h3>
+                    <h5 class="widget-user-desc">@Html.DisplayFor(modelItem => item.employee.fichemetier.nom_f)</h5>
+                </div>
+            </center>
+            <div class="box-footer no-padding">
+                <ul class="nav nav-stacked">
+                    <li>
+                        Niveau acqui :
+                        @if (item.niveauAcquis != item.competence.niveau / 2)
+                        {
+                            if (item.niveauAcquis < (item.competence.niveau / 2))
+                            {
+                                <span class="pull-right badge bg-red">
+                                    @Html.DisplayName("Faible")
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="pull-right badge bg-blue">
+                                    @Html.DisplayName("Moyen")
+                                </span>
+                            }
+                        }
+                        else
+                        {
+                            <span class="pull-right badge bg-green">
+                                @Html.DisplayName(" Excellent (Réference)")
+                            </span>
+                        }
+                    </li>
+                    <li>A propos : <span class="pull-right badge bg-aqua">@Html.DisplayFor(modelItem => item.description_c)</span></li>
+                    <li>
+                              @Html.ActionLink("Edit", "Edit", new { id = item.id_cf })
+                    </li>
+                </ul>
+            </div>
+        </div>
+    }

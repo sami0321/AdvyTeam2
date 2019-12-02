@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Domain.fichemetier>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.employee1.U_FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.description_f)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.F_Famille_Competence)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nom_f)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.employee1.U_FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.description_f)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.F_Famille_Competence)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nom_f)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_f }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_f }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_f })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,52 @@
+﻿@model Web.Models.FicheMetierModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_test.cshtml";
+
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>FicheMetierModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.description_f)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description_f)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.F_Famille_Competence)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.F_Famille_Competence)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nom_f)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom_f)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee_U_ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Employee_U_ID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_f }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

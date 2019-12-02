@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Web.Models.CompetenceModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_test.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.descriptionc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Famille)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.niveau)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nomc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.metier)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.descriptionc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Famille)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.niveau)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nomc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.metier)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_c }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_c }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_c })
+        </td>
+    </tr>
+}
+
+</table>

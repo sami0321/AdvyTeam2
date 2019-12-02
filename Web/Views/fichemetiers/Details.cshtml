@@ -1,0 +1,50 @@
+﻿@model Domain.fichemetier
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>fichemetier</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.employee1.U_FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.employee1.U_FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.description_f)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description_f)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.F_Famille_Competence)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.F_Famille_Competence)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nom_f)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom_f)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_f }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

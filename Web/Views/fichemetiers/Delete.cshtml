@@ -1,0 +1,56 @@
+﻿@model Domain.fichemetier
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>fichemetier</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.employee1.U_FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.employee1.U_FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.description_f)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description_f)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.F_Famille_Competence)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.F_Famille_Competence)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nom_f)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom_f)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
