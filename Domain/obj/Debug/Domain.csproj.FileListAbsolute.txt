@@ -1,0 +1,14 @@
+C:\Users\samib\source\repos\Pidev\Domain\bin\Debug\Domain.dll.config
+C:\Users\samib\source\repos\Pidev\Domain\bin\Debug\Domain.dll
+C:\Users\samib\source\repos\Pidev\Domain\bin\Debug\Domain.pdb
+C:\Users\samib\source\repos\Pidev\Domain\bin\Debug\EntityFramework.dll
+C:\Users\samib\source\repos\Pidev\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\samib\source\repos\Pidev\Domain\bin\Debug\MySql.Data.dll
+C:\Users\samib\source\repos\Pidev\Domain\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\samib\source\repos\Pidev\Domain\bin\Debug\EntityFramework.xml
+C:\Users\samib\source\repos\Pidev\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\samib\source\repos\Pidev\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\samib\source\repos\Pidev\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\samib\source\repos\Pidev\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\samib\source\repos\Pidev\Domain\obj\Debug\Domain.dll
+C:\Users\samib\source\repos\Pidev\Domain\obj\Debug\Domain.pdb

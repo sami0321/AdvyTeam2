@@ -1,0 +1,17 @@
+C:\Users\samib\source\repos\Pidev\Service\bin\Debug\Service.dll
+C:\Users\samib\source\repos\Pidev\Service\bin\Debug\Service.pdb
+C:\Users\samib\source\repos\Pidev\Service\bin\Debug\Data.dll
+C:\Users\samib\source\repos\Pidev\Service\bin\Debug\Domain.dll
+C:\Users\samib\source\repos\Pidev\Service\bin\Debug\Service Pattern.dll
+C:\Users\samib\source\repos\Pidev\Service\bin\Debug\EntityFramework.dll
+C:\Users\samib\source\repos\Pidev\Service\bin\Debug\Data.pdb
+C:\Users\samib\source\repos\Pidev\Service\bin\Debug\Data.dll.config
+C:\Users\samib\source\repos\Pidev\Service\bin\Debug\Domain.pdb
+C:\Users\samib\source\repos\Pidev\Service\bin\Debug\Domain.dll.config
+C:\Users\samib\source\repos\Pidev\Service\bin\Debug\Service Pattern.pdb
+C:\Users\samib\source\repos\Pidev\Service\bin\Debug\EntityFramework.xml
+C:\Users\samib\source\repos\Pidev\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\samib\source\repos\Pidev\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\samib\source\repos\Pidev\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\samib\source\repos\Pidev\Service\obj\Debug\Service.dll
+C:\Users\samib\source\repos\Pidev\Service\obj\Debug\Service.pdb
