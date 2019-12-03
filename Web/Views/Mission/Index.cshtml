@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Domain.mission>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_test.cshtml";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm())
+{<table>
+        <tr>
+            <td>
+                <div>
+                    Search by name: @Html.TextBox("filtre")
+
+                </div>
+            </td>
+            <td>          <input type="submit" value="Search" id="submit" />  </td>
+        </tr>
+    </table>}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.employee.U_FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DATE_DEB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DATE_FIN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.M_DESCRIPTION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.M_TITLE)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.employee.U_FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DATE_DEB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DATE_FIN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.M_DESCRIPTION)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.M_TITLE)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.M_ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.M_ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.M_ID })
+            </td>
+        </tr>
+    }
+
+</table>

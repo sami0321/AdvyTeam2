@@ -13,18 +13,21 @@ namespace Data
         {
         }
 
-        public virtual DbSet<answer> answer { get; set; }
-        public virtual DbSet<competence> competence { get; set; }
-        public virtual DbSet<domain> domain { get; set; }
-        public virtual DbSet<employee> employee { get; set; }
-        public virtual DbSet<fichemetier> fichemetier { get; set; }
-        public virtual DbSet<question> question { get; set; }
-        public virtual DbSet<quiz> quiz { get; set; }
-        public virtual DbSet<reclamation> reclamation { get; set; }
-        public virtual DbSet<referencecompetence> referencecompetence { get; set; }
-        public virtual DbSet<result> result { get; set; }
-        public virtual DbSet<topic> topic { get; set; }
-        public virtual DbSet<user> user { get; set; }
+        public virtual DbSet<answer> answers { get; set; }
+        public virtual DbSet<competence> competences { get; set; }
+        public virtual DbSet<depense> depenses { get; set; }
+        public virtual DbSet<domain> domains { get; set; }
+        public virtual DbSet<employee> employees { get; set; }
+        public virtual DbSet<fichemetier> fichemetiers { get; set; }
+        public virtual DbSet<mission> missions { get; set; }
+        public virtual DbSet<note> notes { get; set; }
+        public virtual DbSet<question> questions { get; set; }
+        public virtual DbSet<quiz> quizs { get; set; }
+        public virtual DbSet<reclamation> reclamations { get; set; }
+        public virtual DbSet<referencecompetence> referencecompetences { get; set; }
+        public virtual DbSet<result> results { get; set; }
+        public virtual DbSet<topic> topics { get; set; }
+        public virtual DbSet<user> users { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -41,17 +44,37 @@ namespace Data
                 .IsUnicode(false);
 
             modelBuilder.Entity<competence>()
-                .Property(e => e.nom_c)
+                .Property(e => e.metier)
                 .IsUnicode(false);
 
             modelBuilder.Entity<competence>()
-                .Property(e => e.metier)
+                .Property(e => e.nom_c)
                 .IsUnicode(false);
 
             modelBuilder.Entity<competence>()
                 .HasMany(e => e.referencecompetence)
                 .WithOptional(e => e.competence)
                 .HasForeignKey(e => e.competence_id_c);
+
+            modelBuilder.Entity<depense>()
+                .Property(e => e.D_CATEGORY)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<depense>()
+                .Property(e => e.D_Description)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<depense>()
+                .Property(e => e.D_MOY_PAYM)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<depense>()
+                .Property(e => e.D_STATE)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<depense>()
+                .Property(e => e.D_TITLE)
+                .IsUnicode(false);
 
             modelBuilder.Entity<domain>()
                 .Property(e => e.name)
@@ -67,11 +90,11 @@ namespace Data
                 .IsUnicode(false);
 
             modelBuilder.Entity<employee>()
-                .Property(e => e.U_LastName)
-                .IsUnicode(false);
+              .Property(e => e.AdressMail)
+              .IsUnicode(false);
 
             modelBuilder.Entity<employee>()
-                .Property(e => e.AdressMail)
+                .Property(e => e.U_LastName)
                 .IsUnicode(false);
 
             modelBuilder.Entity<employee>()
@@ -87,14 +110,24 @@ namespace Data
                 .IsUnicode(false);
 
             modelBuilder.Entity<employee>()
-                .HasMany(e => e.referencecompetence)
+                .HasMany(e => e.missions)
+                .WithOptional(e => e.employee)
+                .HasForeignKey(e => e.manager_U_ID);
+
+            modelBuilder.Entity<employee>()
+                .HasMany(e => e.referencecompetences)
                 .WithOptional(e => e.employee)
                 .HasForeignKey(e => e.employee_U_ID);
 
             modelBuilder.Entity<employee>()
-                .HasMany(e => e.fichemetier1)
-                .WithOptional(e => e.employee1)
-                .HasForeignKey(e => e.Employee_U_ID);
+                .HasMany(e => e.notes)
+                .WithOptional(e => e.employee)
+                .HasForeignKey(e => e.employee_U_ID);
+
+            modelBuilder.Entity<employee>()
+                .HasMany(e => e.employee1)
+                .WithOptional(e => e.employee2)
+                .HasForeignKey(e => e.manager_U_ID);
 
             modelBuilder.Entity<fichemetier>()
                 .Property(e => e.description_f)
@@ -112,6 +145,28 @@ namespace Data
                 .HasMany(e => e.employee)
                 .WithOptional(e => e.fichemetier)
                 .HasForeignKey(e => e.ficheMetier_id_f);
+
+            modelBuilder.Entity<mission>()
+                .Property(e => e.M_DESCRIPTION)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<mission>()
+                .Property(e => e.M_TITLE)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<mission>()
+                .HasMany(e => e.notes)
+                .WithOptional(e => e.mission)
+                .HasForeignKey(e => e.mission_M_ID);
+
+            modelBuilder.Entity<note>()
+                .Property(e => e.D_STATE)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<note>()
+                .HasMany(e => e.depenses)
+                .WithOptional(e => e.note)
+                .HasForeignKey(e => e.note_N_ID);
 
             modelBuilder.Entity<question>()
                 .Property(e => e.complexity)
@@ -237,6 +292,8 @@ namespace Data
                 .HasForeignKey(e => e.idcandidate);
         }
 
-       
+      //  public System.Data.Entity.DbSet<Web.Models.NoteModel> NoteModels { get; set; }
+
+        // public System.Data.Entity.DbSet<Web.Models.NoteModel> NoteModels { get; set; }
     }
 }
