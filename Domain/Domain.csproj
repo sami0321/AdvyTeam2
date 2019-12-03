@@ -57,9 +57,12 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Entity\answer.cs" />
     <Compile Include="Entity\competence.cs" />
+    <Compile Include="Entity\depense.cs" />
     <Compile Include="Entity\domain.cs" />
     <Compile Include="Entity\employee.cs" />
     <Compile Include="Entity\fichemetier.cs" />
+    <Compile Include="Entity\mission.cs" />
+    <Compile Include="Entity\note.cs" />
     <Compile Include="Entity\question.cs" />
     <Compile Include="Entity\quiz.cs" />
     <Compile Include="Entity\reclamation.cs" />

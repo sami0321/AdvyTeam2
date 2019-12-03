@@ -12,3 +12,16 @@ C:\Users\samib\source\repos\Pidev\Domain\obj\Debug\Domain.csproj.CoreCompileInpu
 C:\Users\samib\source\repos\Pidev\Domain\obj\Debug\Domain.csproj.CopyComplete
 C:\Users\samib\source\repos\Pidev\Domain\obj\Debug\Domain.dll
 C:\Users\samib\source\repos\Pidev\Domain\obj\Debug\Domain.pdb
+C:\Users\EskanderGuedouar\source\repos\Pidev\Domain\bin\Debug\Domain.dll.config
+C:\Users\EskanderGuedouar\source\repos\Pidev\Domain\bin\Debug\Domain.dll
+C:\Users\EskanderGuedouar\source\repos\Pidev\Domain\bin\Debug\Domain.pdb
+C:\Users\EskanderGuedouar\source\repos\Pidev\Domain\bin\Debug\EntityFramework.dll
+C:\Users\EskanderGuedouar\source\repos\Pidev\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EskanderGuedouar\source\repos\Pidev\Domain\bin\Debug\MySql.Data.dll
+C:\Users\EskanderGuedouar\source\repos\Pidev\Domain\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\EskanderGuedouar\source\repos\Pidev\Domain\bin\Debug\EntityFramework.xml
+C:\Users\EskanderGuedouar\source\repos\Pidev\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EskanderGuedouar\source\repos\Pidev\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\EskanderGuedouar\source\repos\Pidev\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\EskanderGuedouar\source\repos\Pidev\Domain\obj\Debug\Domain.dll
+C:\Users\EskanderGuedouar\source\repos\Pidev\Domain\obj\Debug\Domain.pdb
