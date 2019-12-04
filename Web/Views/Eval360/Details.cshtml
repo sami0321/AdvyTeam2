@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+
+
+<h2>Details</h2>
+
+
+<a href="@Url.Action("Create", "reclamations")">Add New Reclamation</a>
+
+
+
+@{ var e = ViewBag.Emp;}
+    <ul>
+        <li>@e.id</li>
+        <li>@e.employee.U_LastName</li>
+        
+    </ul>
+
+
+
+
+
+<table  class="table">
+    <tr>
+        <th>id</th>
+        <th>Text</th>
+        <th>
+
+
+    </tr>
+    @foreach (var p in ViewBag.Comments)
+    {
+    <tr>
+
+        <td>@p.text</td>
+        <td>@p.note</td>
+        <td>
+            @Html.ActionLink("Edit", "../Commentaire/Edit", new { id = p.id }) |
+            @Html.ActionLink("Details", "../Commentaire/Details", new { id = p.id }) |
+            @Html.ActionLink("Delete", "../Commentaire/Delete", new { id = p.id })
+        </td>
+    </tr>}
+
+</table>
+
