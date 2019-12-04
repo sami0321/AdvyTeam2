@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<a href="@Url.Action("Create","reclamations")">Add New Reclamation</a>
+
+<table border="1">
+    <tr>
+        <th>id</th>
+        <th>Description</th>
+        <th>etat</th>
+        <th>titre</th>
+        <th>employe_U_ID</th>
+
+        
+    </tr>
+    @foreach (var p in ViewBag.result)
+    {
+    <tr>
+        <td>@p.id</td>
+        <td>@p.Description</td>
+        <td>@p.etat</td>
+        <td>@p.titre</td>
+        <td>@p.employe_U_ID.</td>
+    </tr>   }
+
+</table>
