@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="hrModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cin" Type="Int64" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Username" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="image" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="phonenumber" Type="Int64" />
+    <Property Name="role" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="timesheet" Relationship="Self.FKjqwa3l19o5dvm35g5teqmxj9j" FromRole="employee" ToRole="timesheet" />
+    <NavigationProperty Name="tasks" Relationship="Self.FKq32vktalgv236piokgjhf6u0d" FromRole="employee" ToRole="tasks" />
+    <NavigationProperty Name="project" Relationship="Self.FKtbgjaetmdds2fqcelhbturyrt" FromRole="employee" ToRole="project" />
+  </EntityType>
+  <EntityType Name="project">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="end_date" Type="DateTime" />
+    <Property Name="start_date" Type="DateTime" />
+    <Property Name="Manager_id" Type="Int32" />
+    <NavigationProperty Name="employee" Relationship="Self.FKtbgjaetmdds2fqcelhbturyrt" FromRole="project" ToRole="employee" />
+    <NavigationProperty Name="tasks" Relationship="Self.FK1ul4qlcysqluy7yqg29ylv3v3" FromRole="project" ToRole="tasks" />
+  </EntityType>
+  <EntityType Name="tasks">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Realtime_duration" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="estimated_duration" Type="Int32" Nullable="false" />
+    <Property Name="isvalid" Type="Boolean" />
+    <Property Name="st" Type="Int32" />
+    <Property Name="employee_id" Type="Int32" />
+    <Property Name="project_id" Type="Int32" />
+    <NavigationProperty Name="employee" Relationship="Self.FKq32vktalgv236piokgjhf6u0d" FromRole="tasks" ToRole="employee" />
+    <NavigationProperty Name="project" Relationship="Self.FK1ul4qlcysqluy7yqg29ylv3v3" FromRole="tasks" ToRole="project" />
+    <NavigationProperty Name="timesheet" Relationship="Self.timesheet_tasks" FromRole="tasks" ToRole="timesheet" />
+  </EntityType>
+  <EntityType Name="timesheet">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date_deb" Type="DateTime" />
+    <Property Name="Date_fin" Type="DateTime" />
+    <Property Name="employee_id" Type="Int32" />
+    <NavigationProperty Name="employee" Relationship="Self.FKjqwa3l19o5dvm35g5teqmxj9j" FromRole="timesheet" ToRole="employee" />
+    <NavigationProperty Name="tasks" Relationship="Self.timesheet_tasks" FromRole="timesheet" ToRole="tasks" />
+  </EntityType>
+  <Association Name="FKjqwa3l19o5dvm35g5teqmxj9j">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="timesheet" Type="Self.timesheet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="timesheet">
+        <PropertyRef Name="employee_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKq32vktalgv236piokgjhf6u0d">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="tasks" Type="Self.tasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tasks">
+        <PropertyRef Name="employee_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKtbgjaetmdds2fqcelhbturyrt">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="project" Type="Self.project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="project">
+        <PropertyRef Name="Manager_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK1ul4qlcysqluy7yqg29ylv3v3">
+    <End Role="project" Type="Self.project" Multiplicity="0..1" />
+    <End Role="tasks" Type="Self.tasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="project">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tasks">
+        <PropertyRef Name="project_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="timesheet_tasks">
+    <End Role="timesheet" Type="Self.timesheet" Multiplicity="*" />
+    <End Role="tasks" Type="Self.tasks" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="hr" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="employee" EntityType="Self.employee" />
+    <EntitySet Name="project" EntityType="Self.project" />
+    <EntitySet Name="tasks" EntityType="Self.tasks" />
+    <EntitySet Name="timesheet" EntityType="Self.timesheet" />
+    <AssociationSet Name="FKjqwa3l19o5dvm35g5teqmxj9j" Association="Self.FKjqwa3l19o5dvm35g5teqmxj9j">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="timesheet" EntitySet="timesheet" />
+    </AssociationSet>
+    <AssociationSet Name="FKq32vktalgv236piokgjhf6u0d" Association="Self.FKq32vktalgv236piokgjhf6u0d">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="tasks" EntitySet="tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FKtbgjaetmdds2fqcelhbturyrt" Association="Self.FKtbgjaetmdds2fqcelhbturyrt">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="project" EntitySet="project" />
+    </AssociationSet>
+    <AssociationSet Name="FK1ul4qlcysqluy7yqg29ylv3v3" Association="Self.FK1ul4qlcysqluy7yqg29ylv3v3">
+      <End Role="project" EntitySet="project" />
+      <End Role="tasks" EntitySet="tasks" />
+    </AssociationSet>
+    <AssociationSet Name="timesheet_tasks" Association="Self.timesheet_tasks">
+      <End Role="timesheet" EntitySet="timesheet" />
+      <End Role="tasks" EntitySet="tasks" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

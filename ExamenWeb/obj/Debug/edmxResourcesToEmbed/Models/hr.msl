@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="hrModelStoreContainer" CdmEntityContainer="hr">
+    <EntitySetMapping Name="employee">
+      <EntityTypeMapping TypeName="hrModel.employee">
+        <MappingFragment StoreEntitySet="employee">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Cin" ColumnName="Cin" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="phonenumber" ColumnName="phonenumber" />
+          <ScalarProperty Name="role" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="project">
+      <EntityTypeMapping TypeName="hrModel.project">
+        <MappingFragment StoreEntitySet="project">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="end_date" ColumnName="end_date" />
+          <ScalarProperty Name="start_date" ColumnName="start_date" />
+          <ScalarProperty Name="Manager_id" ColumnName="Manager_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tasks">
+      <EntityTypeMapping TypeName="hrModel.tasks">
+        <MappingFragment StoreEntitySet="tasks">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Realtime_duration" ColumnName="Realtime_duration" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="estimated_duration" ColumnName="estimated_duration" />
+          <ScalarProperty Name="isvalid" ColumnName="isvalid" />
+          <ScalarProperty Name="st" ColumnName="st" />
+          <ScalarProperty Name="employee_id" ColumnName="employee_id" />
+          <ScalarProperty Name="project_id" ColumnName="project_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="timesheet">
+      <EntityTypeMapping TypeName="hrModel.timesheet">
+        <MappingFragment StoreEntitySet="timesheet">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Date_deb" ColumnName="Date_deb" />
+          <ScalarProperty Name="Date_fin" ColumnName="Date_fin" />
+          <ScalarProperty Name="employee_id" ColumnName="employee_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="timesheet_tasks" TypeName="hrModel.timesheet_tasks" StoreEntitySet="timesheet_tasks">
+      <EndProperty Name="timesheet">
+        <ScalarProperty Name="id" ColumnName="timsheets_id" />
+      </EndProperty>
+      <EndProperty Name="tasks">
+        <ScalarProperty Name="id" ColumnName="etasks_id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
