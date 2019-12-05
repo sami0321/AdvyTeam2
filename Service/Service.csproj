@@ -46,7 +46,11 @@
     <Compile Include="FicheMetierService.cs" />
     <Compile Include="IEmployee.cs" />
     <Compile Include="IFicheMetier.cs" />
+    <Compile Include="IMission.cs" />
+    <Compile Include="INoteService.cs" />
     <Compile Include="IReferenceCompetence.cs" />
+    <Compile Include="MissionService.cs" />
+    <Compile Include="NoteService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReferenceCompetenceService.cs" />
   </ItemGroup>

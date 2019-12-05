@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Domain.note>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.employee.U_FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mission.M_DESCRIPTION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.D_STATE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.N_TOTAL)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.employee.U_FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mission.M_DESCRIPTION)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.D_STATE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.N_TOTAL)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.N_ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.N_ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.N_ID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -76,6 +76,8 @@ namespace Web.Controllers
                 F_Famille_Competence = f.F_Famille_Competence,
                 nom_f = f.nom_f,
                 Employee_U_ID=f.Employee_U_ID,
+                
+                
             };
             fms.Add(fm);
             fms.Commit();
@@ -209,11 +211,11 @@ namespace Web.Controllers
             foreach (referencecompetence referencecompetence in referencecompetences)
                 if (rcs.EmpNeedsToBeTested(referencecompetence.id_cf))
                 {
-                    var fromAddress = new MailAddress("teamadvy@gmail.com", "Test Email");
-                    var toAddress = new MailAddress(fm.employee1.AdressMail);
-                    const string fromPassword = "Advyteam1&";
-                    string subject = "Test de niveau "; //your subject line
-                    string body = "You Must Bee Evoluated in : " + referencecompetence.competence.nom_c;// your body
+                    var fromAddress = new MailAddress("samibouaben76@gmail.com", "Test Email");
+                    var toAddress = new MailAddress("guedouareskander@gmail.com");
+                    const string fromPassword = "clubafricain1920";
+                    string subject = "test"; //your subject line
+                    string body = "test 2";// your body
                     var smtp = new SmtpClient
                     {
                         Host = "smtp.gmail.com", //example

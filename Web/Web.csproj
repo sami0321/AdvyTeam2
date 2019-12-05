@@ -163,6 +163,8 @@
     <Compile Include="Controllers\FicheMController.cs" />
     <Compile Include="Controllers\fichemetiersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MissionController.cs" />
+    <Compile Include="Controllers\NoteController.cs" />
     <Compile Include="Controllers\ReferenceCompetenceController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -170,6 +172,8 @@
     <Compile Include="Models\CompetenceModel.cs" />
     <Compile Include="Models\EmployeModel.cs" />
     <Compile Include="Models\FicheMetierModel.cs" />
+    <Compile Include="Models\MissionModel.cs" />
+    <Compile Include="Models\NoteModel.cs" />
     <Compile Include="Models\QuizModel.cs" />
     <Compile Include="Models\ReferenceCompetenceModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -7354,6 +7358,16 @@
     <Content Include="Views\Competence\Create.cshtml" />
     <Content Include="Views\FicheM\Create.cshtml" />
     <Content Include="Views\FicheM\Show.cshtml" />
+    <Content Include="Views\Mission\Index.cshtml" />
+    <Content Include="Views\Mission\Create.cshtml" />
+    <Content Include="Views\Mission\Details.cshtml" />
+    <Content Include="Views\Mission\Edit.cshtml" />
+    <Content Include="Views\Mission\Delete.cshtml" />
+    <Content Include="Views\Note\Index.cshtml" />
+    <Content Include="Views\Note\Create.cshtml" />
+    <Content Include="Views\Note\Edit.cshtml" />
+    <Content Include="Views\Note\Delete.cshtml" />
+    <Content Include="Views\Note\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

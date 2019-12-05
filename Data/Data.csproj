@@ -67,21 +67,13 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
-    <Compile Include="Migrations\201911261057135_TEST.cs" />
-    <Compile Include="Migrations\201911261057135_TEST.Designer.cs">
-      <DependentUpon>201911261057135_TEST.cs</DependentUpon>
+    <Compile Include="Migrations\201912021457225_yes.cs" />
+    <Compile Include="Migrations\201912021457225_yes.Designer.cs">
+      <DependentUpon>201912021457225_yes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201912011709174_yes.cs" />
-    <Compile Include="Migrations\201912011709174_yes.Designer.cs">
-      <DependentUpon>201912011709174_yes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201912011832138_oooooooo.cs" />
-    <Compile Include="Migrations\201912011832138_oooooooo.Designer.cs">
-      <DependentUpon>201912011832138_oooooooo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201912020847096_ask.cs" />
-    <Compile Include="Migrations\201912020847096_ask.Designer.cs">
-      <DependentUpon>201912020847096_ask.cs</DependentUpon>
+    <Compile Include="Migrations\201912021514590_oooooo.cs" />
+    <Compile Include="Migrations\201912021514590_oooooo.Designer.cs">
+      <DependentUpon>201912021514590_oooooo.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -98,17 +90,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201911261057135_TEST.resx">
-      <DependentUpon>201911261057135_TEST.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201912021457225_yes.resx">
+      <DependentUpon>201912021457225_yes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201912011709174_yes.resx">
-      <DependentUpon>201912011709174_yes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201912011832138_oooooooo.resx">
-      <DependentUpon>201912011832138_oooooooo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201912020847096_ask.resx">
-      <DependentUpon>201912020847096_ask.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201912021514590_oooooo.resx">
+      <DependentUpon>201912021514590_oooooo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
