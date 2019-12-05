@@ -1,0 +1,65 @@
+﻿@model IEnumerable<WebApp.Models.Employee>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.cin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.firstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.phonenumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.salaire)
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in ViewBag.result) {
+    <tr>
+        <td>
+            @item.cin
+        </td>
+        <td>
+            @item.email
+        </td>
+        <td>
+            @item.firstName
+        </td>
+        <td>
+            @item.lastName
+        </td>
+        <td>
+            @item.password
+        </td>
+        <td>
+            @item.phonenumber
+        </td>
+        <td>
+            @item.salaire
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

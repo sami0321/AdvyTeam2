@@ -1,0 +1,21 @@
+﻿@if (OAuthWebSecurity.RegisteredClientData.Count == 0) {
+    <div class="message-info">
+        <p>
+            Aucun service d'authentification externe n'est configuré. Consultez <a href="https://go.microsoft.com/fwlink/?LinkId=226949">cet article</a>
+            pour plus de détails sur la configuration de cette application ASP.NET afin qu'elle prenne en charge la connexion par l'intermédiaire de services externes.
+        </p>
+    </div>
+} else {
+    <form method="post">
+    @AntiForgery.GetHtml()
+    <fieldset id="socialLoginList">
+        <legend>Connexion à l'aide d'un autre service</legend>
+        <p>
+            @foreach (var client in OAuthWebSecurity.RegisteredClientData) {
+                <button type="submit" name="provider" value="@client.AuthenticationClient.ProviderName"
+                        title="Se connecter avec le compte @client.DisplayName">@client.DisplayName</button>
+            }
+        </p>
+    </fieldset>
+    </form>
+}

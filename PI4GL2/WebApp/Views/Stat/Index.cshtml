@@ -1,0 +1,113 @@
+﻿@model List<WebApp.Controllers.StatController.CustomData>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="au-card m-b-30">
+                <table class="table">
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th></th>
+                    </tr>
+
+                    @foreach (var item in ViewBag.result)
+                    {
+                        <tr onclick="showChart(@item.id)">
+                            <td>
+                                @item.firstName @item.lastName
+                            </td>
+                        </tr>
+                    }
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="au-card m-b-30">
+                <div class="au-card-inner">
+                    <h3 class="title-2 m-b-40">Formartions Per Employee</h3>
+                    <canvas id="barChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script type="text/javascript" src="jscript/graph.js"></script>
+    <script>
+        function showChart(id) {
+            try {
+                //bar chart
+                var bar = document.getElementById("barChart");
+                if (bar) {
+                    $.ajax({
+                        url: '/Stat/getData',
+                        type: "get",
+                        data: { "id": id },
+                        success: function (data) {
+                            console.log(data);
+                            var labels = [];
+                            var values = [];
+                            data.forEach(function (e) {
+                                labels.push(e.state);
+                                values.push(e.value);
+                            });
+                            bar.height = 200;
+                            setTimeout(function () {
+                                var myChart = new Chart(bar, {
+                                    type: 'bar',
+                                    defaultFontFamily: 'Poppins',
+                                    data: {
+                                        labels: labels,
+                                        datasets: [
+                                            {
+                                                label: "Comments",
+                                                data: values,
+                                                borderColor: "rgba(0, 123, 255, 0.9)",
+                                                borderWidth: "0",
+                                                backgroundColor: "rgba(0, 123, 255, 0.5)",
+                                                fontFamily: "Poppins"
+                                            }
+                                        ]
+                                    },
+                                    options: {
+                                        legend: {
+                                            position: 'top',
+                                            labels: {
+                                                fontFamily: 'Poppins'
+                                            }
+                                        },
+                                        scales: {
+                                            xAxes: [{
+                                                ticks: {
+                                                    fontFamily: "Poppins"
+                                                }
+                                            }],
+                                            yAxes: [{
+                                                ticks: {
+                                                    beginAtZero: true,
+                                                    fontFamily: "Poppins"
+                                                }
+                                            }]
+                                        }
+                                    }
+                                });
+                            }, 2000)
+
+                        }
+                    });
+                }
+            } catch (error) {
+                console.log(error);
+            }
+        }
+    </script>
+}

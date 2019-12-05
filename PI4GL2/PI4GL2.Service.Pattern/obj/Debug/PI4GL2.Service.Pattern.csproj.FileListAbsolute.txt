@@ -1,0 +1,68 @@
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.csprojResolveAssemblyReference.cache
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Service.Pattern.dll.config
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Service.Pattern.dll
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Service.Pattern.pdb
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.dll
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\MySql.Data.dll
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Data.dll
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Data.pdb
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.xml
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\MySql.Data.xml
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.dll
+c:\Users\TakTak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.pdb
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Service.Pattern.dll.config
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Service.Pattern.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Service.Pattern.pdb
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\MySql.Data.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Data.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Domain.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Data.pdb
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Data.dll.config
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Domain.pdb
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Domain.dll.config
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.csprojAssemblyReference.cache
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.csproj.CopyComplete
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.pdb
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Service.Pattern.dll.config
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Service.Pattern.dll
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Service.Pattern.pdb
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.dll
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\MySql.Data.dll
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Data.dll
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Domain.dll
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Data.pdb
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Data.dll.config
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.xml
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Domain.pdb
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Domain.dll.config
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.csprojAssemblyReference.cache
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.csproj.CopyComplete
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.dll
+C:\Users\elbrh\Downloads\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.pdb
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Service.Pattern.dll.config
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Service.Pattern.dll
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Service.Pattern.pdb
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.dll
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\MySql.Data.dll
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Data.dll
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Domain.dll
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Data.pdb
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.xml
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\bin\Debug\PI4GL2.Domain.pdb
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.dll
+C:\Users\Ahmed\Desktop\AhmedNet\PI4GL2\PI4GL2.Service.Pattern\obj\Debug\PI4GL2.Service.Pattern.pdb

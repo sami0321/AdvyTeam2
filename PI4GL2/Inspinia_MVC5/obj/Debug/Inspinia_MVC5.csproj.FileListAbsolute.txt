@@ -1,0 +1,137 @@
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Inspinia_MVC5.dll.config
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Inspinia_MVC5.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Inspinia_MVC5.pdb
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Antlr3.Runtime.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\EntityFramework.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\EntityFramework.SqlServer.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Newtonsoft.Json.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Helpers.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Mvc.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Optimization.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Razor.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.WebPages.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.WebPages.Razor.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\WebGrease.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Antlr3.Runtime.pdb
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\EntityFramework.xml
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\EntityFramework.SqlServer.xml
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Newtonsoft.Json.xml
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Helpers.xml
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Mvc.xml
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Optimization.xml
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Razor.xml
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.WebPages.xml
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.WebPages.Razor.xml
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\pl\System.Web.Razor.resources.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\obj\Debug\Inspinia_MVC5.csprojResolveAssemblyReference.cache
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\obj\Debug\Inspinia_MVC5.dll
+C:\Users\TakTak\Desktop\BURO12\divers 9raya\template\inspinia-master\ASPNET_MVC5_Full_Version\Inspinia_MVC5\obj\Debug\Inspinia_MVC5.pdb
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Inspinia_MVC5.dll.config
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Inspinia_MVC5.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Inspinia_MVC5.pdb
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Antlr3.Runtime.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\EntityFramework.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\EntityFramework.SqlServer.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\MySql.Data.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Newtonsoft.Json.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Helpers.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Mvc.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Optimization.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Razor.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.WebPages.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.WebPages.Razor.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\WebGrease.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Antlr3.Runtime.pdb
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\EntityFramework.xml
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\EntityFramework.SqlServer.xml
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\MySql.Data.xml
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\Newtonsoft.Json.xml
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Helpers.xml
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Mvc.xml
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Optimization.xml
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.Razor.xml
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.WebPages.xml
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\System.Web.WebPages.Razor.xml
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\bin\pl\System.Web.Razor.resources.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\obj\Debug\Inspinia_MVC5.csprojResolveAssemblyReference.cache
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\obj\Debug\Inspinia_MVC5.dll
+C:\Users\TakTak\Desktop\ASPNET_MVC5_Full_Version\Inspinia_MVC5\obj\Debug\Inspinia_MVC5.pdb
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\Inspinia_MVC5.dll.config
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\Inspinia_MVC5.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\Inspinia_MVC5.pdb
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\Antlr3.Runtime.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\EntityFramework.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\EntityFramework.SqlServer.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\Newtonsoft.Json.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.Helpers.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.Mvc.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.Optimization.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.Razor.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.WebPages.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.WebPages.Razor.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\WebGrease.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\Antlr3.Runtime.pdb
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\EntityFramework.xml
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\EntityFramework.SqlServer.xml
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\Newtonsoft.Json.xml
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.Helpers.xml
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.Mvc.xml
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.Optimization.xml
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.Razor.xml
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.WebPages.xml
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\System.Web.WebPages.Razor.xml
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\bin\pl\System.Web.Razor.resources.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\obj\Debug\Inspinia_MVC5.csprojResolveAssemblyReference.cache
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\obj\Debug\Inspinia_MVC5.dll
+C:\Users\TakTak\Documents\Visual Studio 2015\Projects\PI4GL2\Inspinia_MVC5\obj\Debug\Inspinia_MVC5.pdb
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\Inspinia_MVC5.dll.config
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\Inspinia_MVC5.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\Inspinia_MVC5.pdb
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\Antlr3.Runtime.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\EntityFramework.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\EntityFramework.SqlServer.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\Newtonsoft.Json.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.Helpers.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.Mvc.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.Optimization.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.Razor.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.WebPages.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.WebPages.Razor.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\WebGrease.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\Antlr3.Runtime.pdb
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\EntityFramework.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\EntityFramework.SqlServer.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\Newtonsoft.Json.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.Helpers.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.Mvc.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.Optimization.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.Razor.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.WebPages.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Web.WebPages.Razor.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\pl\System.Web.Razor.resources.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\obj\Debug\Inspinia_MVC5.csproj.CopyComplete
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\obj\Debug\Inspinia_MVC5.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\obj\Debug\Inspinia_MVC5.pdb
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\MySql.Data.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\MySql.Data.Entity.EF6.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Net.Http.Extensions.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Net.Http.Formatting.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\bin\System.Net.Http.Primitives.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\Inspinia_MVC5\obj\Debug\Inspinia_MVC5.csprojAssemblyReference.cache

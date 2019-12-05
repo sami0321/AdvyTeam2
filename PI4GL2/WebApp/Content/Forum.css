@@ -1,0 +1,950 @@
+﻿
+/*
+--------------------------------------------------------------
+Colours and backgrounds for links.css
+-------------------------------------------------------------- */
+
+a {
+    color: #676767;
+}
+
+    a:hover {
+        transition: .2s;
+    }
+
+/* Links on gradient backgrounds */
+
+/* Links on light backgrounds */
+
+/* Notification mark read link */
+
+/* Post body links */
+
+/* Back to top of page */
+
+/* Arrow links  */
+
+/* Round cornered boxes and backgrounds
+---------------------------------------- */
+
+.forabg {
+    background-color: #F8F8F8;
+}
+
+/* Horizontal lists
+----------------------------------------*/
+
+/* Table styles
+----------------------------------------*/
+
+/* Misc layout styles
+---------------------------------------- */
+
+/* Icon styles
+---------------------------------------- */
+.icon.icon-blue, a:hover .icon.icon-blue {
+    color: #196db5;
+}
+
+.icon.icon-lightgray, a:hover .icon.icon-lightgray {
+    color: #999999;
+}
+
+/* Jumpbox */
+
+/* Miscellaneous styles
+---------------------------------------- */
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for content.css
+-------------------------------------------------------------- */
+
+ul.forums {
+}
+
+ul.topiclist li {
+}
+
+ul.topiclist dd {
+    border-left-color: #FFFFFF;
+}
+
+li.row {
+    border-bottom-color: #ECF0F1;
+    background-color: #FFFFFF;
+}
+
+
+    li.row strong {
+        color: #000000;
+    }
+
+    li.row:hover {
+    }
+
+        li.row:hover dd {
+            border-left-color: #CCCCCC;
+        }
+
+/* Post body styles
+----------------------------------------*/
+
+/* Content container styles
+----------------------------------------*/
+
+/* Post signature */
+
+/* Post noticies */
+
+/* BB Code styles
+----------------------------------------*/
+/* Quote block */
+
+/* Code block */
+
+/* Attachments
+----------------------------------------*/
+
+/* Inline image thumbnails */
+
+/* Post poll styles
+----------------------------------------*/
+
+/* Poster profile block
+----------------------------------------*/
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for buttons.css
+-------------------------------------------------------------- */
+
+/* Pagination
+---------------------------------------- */
+
+/* Search box
+--------------------------------------------- */
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for cp.css
+-------------------------------------------------------------- */
+
+/* Main CP box
+----------------------------------------*/
+
+/* CP tabbed menu
+----------------------------------------*/
+
+/* Mini tabbed menu used in MCP
+----------------------------------------*/
+
+/* Responsive tabs
+----------------------------------------*/
+
+/* UCP navigation menu
+----------------------------------------*/
+
+/* Link styles for the sub-section links */
+
+/* Preferences pane layout
+----------------------------------------*/
+
+/* Friends list */
+
+/* PM Styles
+----------------------------------------*/
+/* PM Message history */
+
+/* PM marking colours */
+
+/* Avatar gallery */
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for forms.css
+-------------------------------------------------------------- */
+
+/* General form styles
+----------------------------------------*/
+
+/* Definition list layout for forms
+---------------------------------------- */
+
+/* Hover effects */
+
+/* Quick-login on index page */
+
+/* Posting page styles
+----------------------------------------*/
+
+/* Input field styles
+---------------------------------------- */
+
+
+/* Form button styles
+---------------------------------------- */
+
+/* <a> button in the style of the form buttons */
+
+/* Hover states */
+
+/* Focus states */
+
+/* Approve and unapprove */
+
+
+
+
+/* jQuery popups
+---------------------------------------- */
+
+/* Notifications
+---------------------------------------- */
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for merlin.css
+-------------------------------------------------------------- */
+
+/* Headerbar
+---------------------------------------- */
+
+/* Global Containers
+---------------------------------------- */
+
+
+/* Sidebar and Profile widgets
+---------------------------------------- */
+
+
+/* Grid Forumlist
+---------------------------------------- */
+
+/* Custom Login Page
+---------------------------------------- */
+
+/* Postprofile Things
+---------------------------------------- */
+
+/* Social Links
+---------------------------------------- */
+
+/* Scroll to Top
+---------------------------------------- */
+
+/* Collapsible Panels
+---------------------------------------- */
+
+
+/* Missing Avatar Placeholder
+---------------------------------------- */
+
+/* Footer Bars
+---------------------------------------- */
+
+/* Index and Permissions Blocks (and sidebar, probably)
+---------------------------------------- */
+
+
+/* Misc
+---------------------------------------- */
+/* Content Styles
+---------------------------------------- */
+
+ul.forums {
+    padding: 10px 10px 5px;
+}
+
+ul.topiclist {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+}
+
+    ul.topiclist li {
+        display: block;
+        list-style-type: none;
+        margin: 0;
+    }
+
+    ul.topiclist dl {
+        position: relative;
+    }
+
+    ul.topiclist li.row dl {
+    }
+
+    ul.topiclist dt, ul.topiclist dd {
+        display: block;
+        float: left;
+    }
+
+    ul.topiclist dt {
+        width: 100%;
+        margin-right: -490px;
+    }
+
+        ul.topiclist dt .list-inner {
+            margin-right: 490px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+    ul.topiclist dd {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    ul.topiclist dfn {
+        /* Labels for post/view counts */
+        position: absolute;
+        left: -999px;
+        width: 990px;
+    }
+
+li.row {
+    border-bottom: 1px solid transparent;
+    padding: 15px;
+    margin-bottom: 5px !important;
+}
+
+
+li.header dt, li.header dd {
+    line-height: 1em;
+    border-left-width: 0;
+    margin: 14px 0 14px 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+li.header dt {
+    width: 100%;
+    margin-right: -520px;
+    padding-left: 15px;
+}
+
+.forabg li.header dt {
+    margin-right: -530px; /* Accounts for 10px forumlist padding */
+}
+
+li.header dt .list-inner {
+    margin-right: 440px;
+}
+
+li.header dd {
+    padding-left: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+li.header dl.row-item dt, li.header dl.row-item dd {
+    min-height: 0;
+}
+
+    li.header dl.row-item dt .list-inner {
+        /* Tweak for headers alignment when folder icon used */
+        padding-left: 0;
+        padding-right: 50px;
+    }
+
+/* Forum list column styles */
+dl.row-item {
+    background-position: 12px 50%; /* Position of folder icon */
+    background-repeat: no-repeat;
+}
+
+    dl.row-item dt {
+        background-repeat: no-repeat;
+        background-position: 5px 95%; /* Position of topic icon */
+    }
+
+        dl.row-item dt .list-inner {
+            padding-left: 68px; /* Space for folder icon */
+        }
+
+    dl.row-item dt, dl.row-item dd {
+        min-height: 35px;
+    }
+
+        dl.row-item dt a {
+            display: inline;
+        }
+
+dl a.row-item-link { /* topic row icon links */
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -15px;
+    margin-left: 9px;
+}
+
+/* List in forum description */
+
+dd.lastpost, dd.redirect {
+    width: 300px;
+}
+
+dd.redirect {
+    line-height: 2.5em;
+}
+
+    dd.lastpost > span, dd.redirect > span {
+        display: block;
+        padding-left: 5px;
+    }
+
+/* Post body styles
+----------------------------------------*/
+
+/* Merlin Framework Adjustment */
+
+/* Topic review panel
+----------------------------------------*/
+
+/* MCP Post details
+----------------------------------------*/
+
+/* Content container styles
+----------------------------------------*/
+
+/* Post author */
+
+/* Post signature */
+
+/* Post noticies */
+
+/* Jump to post link for now */
+
+/* BB Code styles
+----------------------------------------*/
+/* Quote block */
+
+/* Code block */
+
+/* Attachments
+----------------------------------------*/
+
+/* Merlin Framework Adjustment */
+
+/* Inline image thumbnails */
+
+/* Post poll styles
+----------------------------------------*/
+
+/* Poster profile block
+----------------------------------------*/
+
+/* Merlin Framework Adjustment */
+
+/* Merlin Framework Adjustment */
+
+/* Post-profile avatars */
+
+/* Poster profile used by search*/
+
+/* Profile used on view-profile */
+
+/* pm list in compose message if mass pm is enabled */
+
+/* Show scrollbars for items with overflow on iOS devices
+----------------------------------------*/
+/* General Markup Styles
+---------------------------------------- */
+html {
+    /* Always show a scrollbar for short pages - stops the jump when the scrollbar appears. non-IE browsers */
+    height: 101%;
+}
+
+body {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    -webkit-print-color-adjust: exact;
+}
+
+html, body {
+    height: 100%;
+}
+
+img {
+    border-width: 0;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    display: list-item;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Main blocks
+---------------------------------------- */
+
+/* Site description and logo */
+
+/* Round cornered boxes and backgrounds
+---------------------------------------- */
+
+.forabg {
+    margin-bottom: 30px;
+    clear: both;
+}
+
+/* Horizontal lists
+----------------------------------------*/
+
+/* Bulletin icons for list items
+----------------------------------------*/
+
+/* Profile in overall_header.html */
+
+/* Dropdown menu
+----------------------------------------*/
+
+/* Responsive breadcrumbs
+----------------------------------------*/
+
+/* Table styles
+----------------------------------------*/
+
+/* Specific column styles */
+
+/* Misc layout styles
+---------------------------------------- */
+/* column[1-2] styles are containers for two column layouts */
+
+/* General classes for placing floating blocks */
+
+ul.topiclist dl {
+    overflow: hidden;
+}
+
+/* Action-bars (container for post/reply buttons, pagination, etc.)
+---------------------------------------- */
+
+/* Pagination
+---------------------------------------- */
+
+/* Pagination in viewforum for multipage topics */
+
+/* jQuery popups
+---------------------------------------- */
+
+/* Miscellaneous styles
+---------------------------------------- */
+
+/* Inner box-model clearing */
+.inner:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+/* Navbar specific list items
+----------------------------------------*/
+/* New code for new things */
+
+/* Boxed and Fluid Layout Switches
+---------------------------------------- */ /* Defined in responsive/large-desktops.css */
+
+
+/* Headerbar
+---------------------------------------- */
+
+
+/* Particles 
+---------------------------------------- */
+
+
+
+/* Global Containers
+---------------------------------------- */
+
+/* Sidebar Structure
+---------------------------------------- */
+
+/* Main content */
+
+/* Conditional padding adjustments (to cater for flightdeck setting) */
+
+
+/* Sidebar Widgets
+---------------------------------------- */
+
+/* Sidebar Widget */
+
+
+/* Profile Widget */
+
+/* Ad Widget */
+
+/* Blank Widget */
+
+
+/* Grid Forumlist
+---------------------------------------- */
+
+/* For easy margins on grid items, we apply them to all sides. Here we need to pull the container
+margins out so that the grid items 'appear' to be flush with the container and center column */
+
+/* Sets the 3 column structure */
+
+/* Margins and Height defined to maintain uniformity */
+
+/* Do the same for forum images */
+
+/* Since this is the only column, we don't need to push the others over to the right */
+
+/* Stop the responsive breakpoints affecting the grid layout */
+
+
+/* Simple Forumlist
+---------------------------------------- */
+dd.simpleposts {
+    text-align: center;
+    line-height: 2.2em;
+    width: 190px;
+}
+
+    dd.simpleposts span {
+        display: block;
+    }
+
+/* Custom Login Page
+---------------------------------------- */
+
+/* Sets the width and 100% height required for vertical alignment */
+
+
+/* Vertically aligns the left content */
+
+/* Vertically aligns the left content */
+
+/* Content and fancypanel are one */
+
+/* Login Widget */
+
+/* Captcha Override */
+
+/* Right Side tweaks */
+
+
+/* Postprofile Things (next release)
+---------------------------------------- */
+
+
+/* Social Links
+---------------------------------------- */
+
+/* Scroll to Top
+---------------------------------------- */
+
+
+/* Collapsible Panels
+---------------------------------------- */
+.collapse-trigger {
+    display: block;
+    float: right;
+    position: relative;
+    margin: -31px 18px 0 0;
+}
+
+    .collapse-trigger a:hover, .collapse-trigger a:focus {
+        text-decoration: none;
+    }
+
+span.fa-plus {
+    display: block;
+}
+
+span.fa-minus {
+    display: none;
+}
+
+.open span.fa-plus {
+    display: none;
+}
+
+.open span.fa-minus {
+    display: block;
+}
+
+
+/* As sidebar blocks entered via flightdeck can't use IF statements, we'll set the trigger visibility for the right sidebar here */
+
+/* Hide them by default, then show when they're enabled */
+
+
+/* Missing Avatar Placeholder
+---------------------------------------- */
+
+
+/* Topic Types
+---------------------------------------- */
+
+
+/* Footer Bars
+---------------------------------------- */
+
+
+/* Last Post Avatar
+---------------------------------------- */
+span.lastpostavatar img {
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 4px; /* Counteracts the last topic title line height */
+}
+
+span.lastpostavatar img {
+    border: none;
+}
+
+li.has_last_post_avatar dd.lastpost {
+    padding-left: 45px;
+}
+
+/* Apparently viewforum doesn't like the above code. Weird..it's the same structure as index.php *shrug* */
+
+
+/* Columns 
+---------------------------------------- */
+
+
+/* Index and Permissions Blocks (and sidebar, probably)
+---------------------------------------- */
+
+
+/* Misc
+---------------------------------------- */
+
+.responsive_forumlist_row_stats {
+    margin-top: 4px;
+    opacity: 0.5;
+}
+
+/* Fade out soft deleted topics */
+
+/* Remove the 5px top forumbg margin when stripe headers are enabled */
+/* --------------------------------------------------------------
+	$Base
+-------------------------------------------------------------- */
+
+/** {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+
+/* Define your base font-size here; most elements will inherit this. _NO__DOTCOMMA__AFTER__*/
+html {
+    font-size: 1em; /* Assuming 16px... */
+    line-height: 1.5; /* 24px (This is now our magic number; all subsequent margin-bottoms and line-heights want to be a multiple of this number in order to maintain vertical rhythm.) _NO__DOTCOMMA__AFTER__*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+img {
+    vertical-align: middle
+}
+
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+
+    a:hover,
+    a:active {
+        color: #2a6496;
+        text-decoration: underline;
+    }
+
+dl,
+dd {
+    margin: 0
+}
+
+/**
+ * Work around a Firefox/IE bug where the transparent `button` background
+ * results in a loss of the default `button` focus styles.
+ */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * Suppress the focus outline on links that cannot be accessed via keyboard.
+ * This prevents an unwanted focus outline from appearing around elements that
+ * might still respond to pointer events.
+ */
+
+/**
+ * Remove double underline from recent version of firefox
+ */
+/* Responsive Design
+---------------------------------------- */
+
+/* Notifications list
+----------------------------------------*/
+
+@media (max-width: 550px) {
+    ul.topiclist.forums dt {
+        margin-right: 0;
+    }
+
+        ul.topiclist.forums dt .list-inner {
+            margin-right: 0;
+        }
+
+    ul.topiclist.forums dd.lastpost {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .responsive-show {
+        display: block !important;
+    }
+
+    /* Content wrappers
+	----------------------------------------*/
+    html {
+        height: auto;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    /* Common block wrappers
+	----------------------------------------*/
+
+    .forabg {
+        border-radius: 0;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    /* Logo block
+	----------------------------------------*/
+
+    /* Navigation
+	----------------------------------------*/
+
+    /* Search
+	----------------------------------------*/
+
+    /* .topiclist lists
+	----------------------------------------*/
+    li.header dt {
+        text-align: center;
+        text-transform: none;
+        line-height: 1em;
+        font-size: 1.2em;
+        padding-bottom: 4px;
+    }
+
+    ul.topiclist li.header dt, ul.topiclist li.header dt .list-inner {
+        margin-right: 0 !important;
+        padding-right: 0;
+    }
+
+    ul.topiclist li.header dd {
+        display: none !important;
+    }
+
+    ul.topiclist dt, ul.topiclist dt .list-inner {
+        margin-right: 0;
+    }
+
+        ul.topiclist dt .list-inner {
+            min-height: 28px;
+        }
+
+    ul.topiclist li.header dt .list-inner {
+        min-height: 0;
+    }
+
+    ul.topiclist dd {
+        display: none;
+    }
+
+    /* Forums and topics lists
+	----------------------------------------*/
+    ul.topiclist.forums dt {
+        margin-right: -250px;
+    }
+
+    li.header dt {
+        padding-left: 0;
+    }
+
+    li.row .responsive-show strong {
+        font-weight: bold;
+        color: inherit;
+    }
+
+    ul.topiclist li.row dt a.subforum {
+        vertical-align: bottom;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100px;
+    }
+
+    /* Pagination
+	----------------------------------------*/
+
+    /* Responsive tables
+	----------------------------------------*/
+
+    /* Forms
+	----------------------------------------*/
+
+    /* User profile
+	----------------------------------------*/
+
+    /* Polls
+	----------------------------------------*/
+
+    /* Post
+	----------------------------------------*/
+
+    /* Misc stuff
+	----------------------------------------*/
+}
+
+@media (min-width: 701px) and (max-width: 950px) {
+
+    ul.topiclist dt {
+        margin-right: -410px;
+    }
+
+        ul.topiclist dt .list-inner {
+            margin-right: 410px;
+        }
+}

@@ -1,0 +1,25 @@
+c:\users\taktak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2\bin\Debug\PI4GL2.exe.config
+c:\users\taktak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2\bin\Debug\PI4GL2.exe
+c:\users\taktak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2\bin\Debug\PI4GL2.pdb
+c:\users\taktak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2\bin\Debug\EntityFramework.dll
+c:\users\taktak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\taktak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2\bin\Debug\MySql.Data.dll
+c:\users\taktak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2\bin\Debug\EntityFramework.xml
+c:\users\taktak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\taktak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2\bin\Debug\MySql.Data.xml
+c:\users\taktak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2\obj\Debug\PI4GL2.csprojResolveAssemblyReference.cache
+c:\users\taktak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2\obj\Debug\PI4GL2.exe
+c:\users\taktak\documents\visual studio 2015\Projects\PI4GL2\PI4GL2\obj\Debug\PI4GL2.pdb
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2\bin\Debug\PI4GL2.exe.config
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2\bin\Debug\PI4GL2.exe
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2\bin\Debug\PI4GL2.pdb
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2\bin\Debug\EntityFramework.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2\bin\Debug\MySql.Data.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2\bin\Debug\EntityFramework.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2\obj\Debug\PI4GL2.csproj.CopyComplete
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2\obj\Debug\PI4GL2.exe
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2\obj\Debug\PI4GL2.pdb
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\elbrh\Downloads\HamzaNET\PI4GL2\PI4GL2\obj\Debug\PI4GL2.csprojAssemblyReference.cache
